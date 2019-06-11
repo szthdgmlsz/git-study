@@ -30,3 +30,45 @@
 - 발행하기(git push origin master)
 - 일반 저장소에서 호스팅 저장소로 변경하기
 [Youtube 영상](https://youtu.be/SNnfbf-LJz4)
+## 2일차
+### HTML 기본구조
+- DTD 선언(<DOCTYPE html>)
+- HTML 요소(<html lang="ko-KR">)
+- head 요소(문서 제목 및 메타데이터)
+- 인코딩 선언(<meta charset="utf-8">)
+- body 요소(본문 영역)
+
+```html
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    
+</body>
+</html>
+```
+### HTML 요소
+- 제목 요소(<h1> ~ <h6>)
+- 문단(단락)(<p>)
+- 강조, 분위기 전환(<b>, <i>, <strong>, <em>)
+- 줄바꿈, 수평선(<br>, <hr>)
+- 목록 요소(비순서형<ul>, 순서형<ol>, 자식<li>, 정의형목록(<dl><dd>)
+- 하이퍼링크(<a>, href 속성 : 연결, target 속성 : 새창, 빈창, 특정창, title 속성 : 툴팁)
+- 이미지(<img>, src 속성 : 이미지소스, alt 속성 : 대체텍스트)
+### CSS의 개념 및 정의
+- CSS는 Cascading Style Sheet의 약자로 스타일을 정의하기 위한 언어이다.
+- 최신 표준은 CSS3라고 불리는 새로 추가된 모듈이다.
+- CSS의 중요한 개념은 겹침, 상속, 우선순위이다.
+- CSS를 이용해 레이아웃 설계를 하기 위해서는 float, position, flex 등의 속성이 필요하다.
+- CSS의 기본 문법은 선택자와 선언부로 구성되어있다.
+
+```CSS
+  P {
+    color:green;
+    background-color:yellow;
+  }
+```
+
