@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+h1{
+  background: yellow;  
+}
+.shadow{
+  background: black;
+}
+h2{
+  background: pink;
+  position: relative;
+  top:-5px;
+  left:-5px;
+}
+.layer{
+  background: gray;
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+h3{
+  background: lime;
+  margin: 0;
+  position: absolute; 
+  bottom: 100px;
+  right:50px;
+
+}
+p{
+  background: orange;
+  position:sticky;
+}
+span{
+  background: skyblue;
+  position: fixed;
+  top:50px;
+  right:50px;
+}
