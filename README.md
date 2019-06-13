@@ -99,4 +99,25 @@
 - background-size(배경 이미지의 크기 조정)
 - background 속성(배경관련 단축 속성)
 
+## 4일차
+### position 속성
+- static(기본값)
+- relative(상대배치)
+- absolute(절대배치)
+- fixed(고정배치 - 뷰포트 기준)
+- sticky(relative + fixed 효과 - IE11 지원하지 않음)
+### animation 관련 속성
+- animation
+    + animation-name(필수)
+    + animation-duration(필수)
+    + animation-fill-mode
+    + animation-delay
+- transform
+    + translate(이동)
+    + scale(크기)
+    + rotate(회전)
+- transition
+    + transition-property
+    + transition-duration
+    + transition-delay
 
